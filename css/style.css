@@ -1,0 +1,42 @@
+
+:root{
+    --fonte: Arial, Helvetica, sans-serif;
+    --corfundo: #000;
+    --corfundo2: #48C5CE;
+    --fontecor: #fff;
+    --alinha: center;
+    
+    
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--fonte);
+    background-color: var(--corfundo);
+
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+
+
+
+}
+
+header{
+    background-color: var(--corfundo2);
+    color: var(--fontecor);
+    text-align: var(--alinha);
+    padding: 10px;
+
+}
+
+.title{
+    font-size: 26px;
+    text-transform: uppercase;
+}
